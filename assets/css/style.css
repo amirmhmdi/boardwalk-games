@@ -1,31 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
 :root {
-    --primery-font: 'Inter', sans-serif;
-    --secendary-font: 'Macondo', cursive;
-    --primery-color: #3a2620; /*blue*/
-    --secendary-color: #aa9581; /*light brown*/
-    --highlight-color: #416a8e; /*orange*/
-    --highlight-color-light: #7a9fc2; /*light blue*/
+  --primery-font: "Inter", sans-serif;
+  --secendary-font: "Macondo", cursive;
+  --primery-color: #3a2620; /*blue*/
+  --secendary-color: #aa9581; /*light brown*/
+  --highlight-color: #416a8e; /*orange*/
+  --highlight-color-light: #7a9fc2; /*light blue*/
 }
 
 body {
-    font-family: var(--primery-font);
+  font-family: var(--primery-font);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
+  font-family: var(--secendary-font);
+  color: var(--primery-color);
+  text-transform: uppercase;
+}
+
+.sub-heading-color {
+  color: var(--highlight-color);
+}
+
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* header */
+#header .lead{
     font-family: var(--secendary-font);
-    color: var(--primery-color);
 }
 
 /* navbar */
 
 #navbar {
-    background-color: var(--secendary-color);
+  background-color: var(--secendary-color);
 }
 
 #navbar .logo {
-    width: 30px;
+  width: 30px;
 }
 
 /* .container,

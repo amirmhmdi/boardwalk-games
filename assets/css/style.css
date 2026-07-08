@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
+:root {
+    --primery-font: 'Inter', sans-serif;
+    --secendary-font: 'Macondo', cursive;
+    --primery-color: #3a2620; /*blue*/
+    --secendary-color: #aa9581; /*light brown*/
+    --highlight-color: #416a8e; /*orange*/
+    --highlight-color-light: #7a9fc2; /*light blue*/
+}
+
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--primery-font);
 }
 
-h1 {
-    font-family: 'Macondo', cursive;
-    color: blue;
+h1, h2, h3 {
+    font-family: var(--secendary-font);
+    color: var(--primery-color);
 }
 
-p {
-    font-family: 'Inter', sans-serif;
-    color: red;
+.container,
+.row {
+    border: 2px solid black;
 }
 
-body{
-    font-family: 'Inter', 'Macondo' ,sans-serif;
-}
-
-h1{
-    font-family: 'Macondo';
-    color: blue;
-}
-
-p{
-    font-family: 'Inter';
-    color: red;
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }

@@ -65,6 +65,13 @@ h2 {
   width: 30px;
 }
 
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* .container,
 .row {
     border: 2px solid black;

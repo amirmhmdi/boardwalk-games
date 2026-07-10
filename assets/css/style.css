@@ -69,7 +69,39 @@ h2 {
 
 #new-games .card,
 #fav-games .card {
-    border: none;
+  border: none;
+}
+
+/* footer / contact */
+#contact {
+  background-color: var(--primery-color);
+  color: white;
+  padding-bottom: 3rem;
+}
+
+#contact h2 {
+  color: white;
+  text-decoration: none;
+}
+
+#contact .sub-heading-color {
+  color: var(--highlight-color-light);
+}
+
+#contact svg {
+  color: var(--secendary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#contact .social-link svg {
+  color: var(--highlight-color-light);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact .social-link svg:hover {
+  color: var(--secendary-color);
 }
 
 /* .container,

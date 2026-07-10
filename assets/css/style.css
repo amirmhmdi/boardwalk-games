@@ -38,6 +38,33 @@ h2 {
   margin-bottom: 2rem;
 }
 
+/* botton  */
+
+.custom-btn-filled {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn-filled:hover {
+  border: 2px solid var(--secendary-color);
+  background-color: var(--secendary-color);
+  color: white;
+}
+
+.custom-btn-outline {
+  border: 3px solid var(--highlight-color);
+  color: var(--highlight-color);
+  transition: all 0.3s ease-in-out;
+  padding: 7px 25px;
+}
+
+.custom-btn-outline:hover {
+  background-color: var(--highlight-color);
+  color: white;
+}
+
 /* header */
 #header .lead {
   font-family: var(--secendary-font);
@@ -58,7 +85,7 @@ h2 {
 /* navbar */
 
 #navbar {
-  background-color: var(--secendary-color);
+  background-color: var(--primery-color);
 }
 
 #navbar .logo {

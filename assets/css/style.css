@@ -44,6 +44,7 @@ h2 {
   border: 2px solid var(--highlight-color);
   background-color: var(--highlight-color);
   color: white;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -56,6 +57,7 @@ h2 {
 .custom-btn-outline {
   border: 3px solid var(--highlight-color);
   color: var(--highlight-color);
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 7px 25px;
 }
@@ -87,7 +89,9 @@ h2 {
 .dicount {
   background-color: var(--highlight-color);
   color: white;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 16px;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -136,6 +140,7 @@ h2 {
 #contact .social-link svg {
   color: var(--highlight-color-light);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -146,16 +151,6 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 @media screen and (min-width: 768px) {
   /* make all card same height */
